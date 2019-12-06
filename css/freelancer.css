@@ -4321,9 +4321,9 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 0.125rem solid rgba(0, 0, 0, 0.125);
+  /* background-color: #fff; */
+  /* background-clip: border-box; */
+  /* border: 0.125rem solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.5rem;
 }
 
@@ -4371,8 +4371,8 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  /* border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125); */
 }
 
 .card-header:first-child {
@@ -9872,3 +9872,26 @@ form .row:first-child .floating-label-form-group {
   background-color: #6f6f6f;
 }
 
+.panel-heading .accordion-toggle:before {  
+  font-family: 'Font Awesome\ 5 Free';
+  content: "\f005";
+}
+.panel-heading .accordion-toggle.collapsed:before {
+  content: "＋";
+}
+
+[aria-expanded="false"] .navbarResponsive_open {
+  display: inline;
+}
+
+[aria-expanded="false"] .navbarResponsive_close {
+  display: none;
+}
+
+[aria-expanded="true"] .navbarResponsive_open {
+  display: none;
+}
+
+[aria-expanded="true"] .navbarResponsive_close {
+  display: inline;
+}
