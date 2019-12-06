@@ -2,13 +2,17 @@
 
 // Set custom colors
 $teal: #00FFFF !default;
-$dark-blue: #DDDDDD !default;
-$yellow: #FFFF77 !default;
+$dark-blue: #888888 !default;
+$yellow: #FFBB00 !default;
+$pink: #E83E8C !default;
+$green: #33FF33 !default;
 
 // Override Bootstrap primary and secondary colors
 $primary: $teal !default;
 $secondary: $dark-blue !default;
 $warning: $yellow !default;
+$success: $pink !default;
+$info: $green !default;
 
 // Override Bootstrap font variables
 $font-family-sans-serif: "Noto Sans TC", sans-serif !default;
