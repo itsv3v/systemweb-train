@@ -9871,3 +9871,7 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #6f6f6f;
 }
+
+video {
+  object-fit: fill;
+}
