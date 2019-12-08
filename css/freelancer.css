@@ -4321,9 +4321,9 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  /* background-color: #fff; */
-  /* background-clip: border-box; */
-  /* border: 0.125rem solid rgba(0, 0, 0, 0.125); */
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
 }
 
@@ -4371,8 +4371,8 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  /* background-color: rgba(0, 0, 0, 0.03); */
-  /* border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125); */
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
 
 .card-header:first-child {
@@ -9776,7 +9776,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #B87800;
+  background-color: rgba(0, 255, 255, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -9874,10 +9874,10 @@ form .row:first-child .floating-label-form-group {
 
 .panel-heading .accordion-toggle:before {  
   font-family: 'Font Awesome\ 5 Free';
-  content: "\f005";
+  content: "\f107";
 }
 .panel-heading .accordion-toggle.collapsed:before {
-  content: "＋";
+  content: "\f105";
 }
 
 [aria-expanded="false"] .navbarResponsive_open {
